@@ -49,13 +49,3 @@ app.use((error, req, res, next) => {
 })
 
 module.exports = app;
-
-// QRCode.toDataURL('I am a pony!', function (err, url) {
-//   console.log(url)
-// })
-
-
-// // app.listen(port);
-// server.listen(port, () => {
-//   console.log('server running on ' + port)
-// })
